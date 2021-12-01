@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <div className="new-menu">
           <div className="logo-wrapper">
             <a href="index.html" aria-current="page" className="goto_home">
-              <Image src="/images/Sorry-Robots-Logo-2000.webp" width={98} height={17} alt="Sorry Robots: A Full-Stack Product Design Firm" layout="responsive" />
+              <Image src="/images/Sorry-Robots-Logo-2000.webp" width={98} height={17} alt="Sorry Robots: A Full-Stack Product Design Firm" layout="responsive" priority />
             </a>
           </div>
           <div className="new-menu-links">
