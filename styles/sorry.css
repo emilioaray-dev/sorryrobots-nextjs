@@ -233,9 +233,9 @@ display: grid;
     min-height: 70vh;
     height: auto;
     padding: 100px 50px;
-    DISPLAY: FLEX;
-    ALIGN-ITEMS: CENTER;
-    JUSTIFY-CONTENT: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 html .menu-button-2 {
@@ -275,12 +275,13 @@ html .menu-button-2 {
 }
 
 .banner-section {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  display: grid;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #000;
+  min-height: 70vh;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .banner-container {
@@ -1055,11 +1056,6 @@ height: auto;
     background-attachment: scroll;
 }
 
-  .section-full._3 {
-    background-image: url('../public/images/adrien-olichon-ohoaDhAObEA-unsplash.webp');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
 
   .color-section {
     height: auto;
@@ -1279,14 +1275,6 @@ height: auto;
     max-height: 780px;
 }
 
-  .section-full._3 {
-    height: auto;
-    min-height: 600px;
-    background-image: url('../public/images/adrien-olichon-ohoaDhAObEA-unsplash.webp');
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
 
   .color-section {
     display: -webkit-box;
@@ -1528,16 +1516,7 @@ height: auto;
 	}
 	
 	
-  .section-full._3 {
-    height: 0%;
-    min-height: 580px;
-    padding-top: 25px;
-    background-image: url('../public/images/adrien-olichon-ohoaDhAObEA-unsplash.webp');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-  }
+
 
   .color-section {
     height: auto;
