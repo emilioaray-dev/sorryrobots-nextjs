@@ -160,9 +160,9 @@ const Home: NextPage = () => {
 
           <div className="partner-links">
             <ul>
-              <li><a href="https://samantharose.co" target="_blank" >SAMANTHA ROSE | Our Founder</a></li>
-              <li><a href="https://mvnifest.com" target="_blank">MVNIFEST | Design + Logistics</a></li>
-              <li><a href="https://voltaire.co" target="_blank">VOLTAIRE | Coffee, Enlightened</a>	</li>
+              <li><a href="https://samantharose.co" target="_blank" rel="noreferrer" >SAMANTHA ROSE | Our Founder</a></li>
+              <li><a href="https://mvnifest.com" target="_blank" rel="noreferrer">MVNIFEST | Design + Logistics</a></li>
+              <li><a href="https://voltaire.co" target="_blank" rel="noreferrer">VOLTAIRE | Coffee, Enlightened</a>	</li>
             </ul>
           </div>
 
